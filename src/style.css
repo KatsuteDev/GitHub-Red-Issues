@@ -42,3 +42,9 @@ span[title="Status: Closed"] .octicon-issue-closed {
 .TimelineItem-badge.color-bg-success-inverse .octicon {
     color: #F0F6Fc !important;
 }
+
+/* projects beta */
+
+svg[aria-label="Closed issue"] {
+    color: #F85149 !important;
+}

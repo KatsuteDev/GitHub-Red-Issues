@@ -20,3 +20,4 @@ Found a bug? Open a new [issue](https://github.com/Katsute/GitHub-Red-Closed-Iss
 - Closed issue on hover is red.
 - Issue open/close events on timeline are green and red.
 - Closed issues in subscription list are red.
+- Closed issues in projects are red.
