@@ -12,6 +12,12 @@
     color: #F85149 !important;
 }
 
+/* subscriptions */
+
+.issue-closed-done .octicon.octicon-issue-closed.color-text-danger {
+    color: #F85149 !important;
+}
+
 /* issue badge */
 
 span[title="Status: Closed"] {
