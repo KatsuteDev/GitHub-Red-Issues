@@ -1,0 +1,38 @@
+/* Copyright (C) 2021 Katsute <https://github.com/Katsute> */
+
+/* issue icon */
+
+.issue-closed-done .octicon-issue-closed {
+    color: #F85149 !important;
+}
+
+/* issue hover */
+
+.Popover .octicon.octicon-issue-closed.color-text-danger {
+    color: #F85149 !important;
+}
+
+/* issue badge */
+
+span[title="Status: Closed"] {
+    background-color: #F85149 !important;
+}
+
+span[title="Status: Closed"] .octicon-issue-closed {
+    color: #F0F6Fc !important;
+}
+
+/* timeline */
+
+.TimelineItem-badge.color-bg-success-inverse {
+    background-color: #238636 !important;
+}
+
+.TimelineItem-badge.color-bg-danger-inverse {
+    background-color: #F85149 !important;
+}
+
+.TimelineItem-badge.color-bg-danger-inverse .octicon,
+.TimelineItem-badge.color-bg-success-inverse .octicon {
+    color: #F0F6Fc !important;
+}
