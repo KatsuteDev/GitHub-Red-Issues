@@ -2,7 +2,7 @@
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Chrome extension to revert closed GitHub issues from purple back to red.
+Google Chrome extension to revert closed GitHub issues from purple back to red.
 
 ## Installation
 
