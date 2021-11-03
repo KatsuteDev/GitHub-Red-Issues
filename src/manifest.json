@@ -4,13 +4,12 @@
     "name": "GitHub Red Closed Issues",
     "author": "Katsute",
     "description": "Revert closed GitHub issues from purple back to red.",
-    "version": "1.0",
+    "version": "1.1",
     "homepage_url": "https://github.com/Katsute/GitHub-Red-Issues-Extension",
 
     "permissions": ["tabs"],
     "content_scripts": [{
         "css": ["style.css"],
-        "js": ["index.js"],
         "matches": ["https://github.com/*"]
     }]
 }

@@ -30,16 +30,11 @@ span[title="Status: Closed"] .octicon-issue-closed {
 
 /* timeline */
 
-.TimelineItem-badge.color-bg-success-inverse {
-    background-color: #238636 !important;
-}
-
-.TimelineItem-badge.color-bg-danger-inverse {
+.TimelineItem-badge.color-bg-done-emphasis {
     background-color: #F85149 !important;
 }
 
-.TimelineItem-badge.color-bg-danger-inverse .octicon,
-.TimelineItem-badge.color-bg-success-inverse .octicon {
+.TimelineItem-badge.color-bg-done-emphasis .octicon {
     color: #F0F6Fc !important;
 }
 
