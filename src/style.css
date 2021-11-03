@@ -1,45 +1,51 @@
 /* Copyright (C) 2021 Katsute <https://github.com/Katsute> */
 
+:root {
+    --rcie-pull-merged: #8957e5;
+    --rcie-issue-closed: #F85149;
+    --rcie-white: #F0F6Fc;
+}
+
 /* issue icon */
 
 .issue-closed-done .octicon-issue-closed {
-    color: #F85149 !important;
+    color: var(--rcie-issue-closed) !important;
 }
 
 /* issue hover */
 
 .Popover .octicon.octicon-issue-closed.color-text-danger {
-    color: #F85149 !important;
+    color: var(--rcie-issue-closed) !important;
 }
 
 /* subscriptions */
 
 .issue-closed-done .octicon.octicon-issue-closed.color-text-danger {
-    color: #F85149 !important;
+    color: var(--rcie-issue-closed) !important;
 }
 
 /* issue badge */
 
 span[title="Status: Closed"] {
-    background-color: #F85149 !important;
+    background-color: var(--rcie-issue-closed) !important;
 }
 
 span[title="Status: Closed"] .octicon-issue-closed {
-    color: #F0F6Fc !important;
+    color: var(--rcie-white) !important;
 }
 
 /* timeline */
 
-.TimelineItem-badge.color-bg-done-emphasis {
-    background-color: #F85149 !important;
+:not(.rcie-merge).TimelineItem-badge.color-bg-done-emphasis {
+    background-color: var(--rcie-issue-closed) !important;
 }
 
-.TimelineItem-badge.color-bg-done-emphasis .octicon {
-    color: #F0F6Fc !important;
+:not(.rcie-merge).TimelineItem-badge.color-bg-done-emphasis .octicon {
+    color: var(--rcie-white) !important;
 }
 
 /* projects beta */
 
 svg[aria-label="Closed issue"] {
-    color: #F85149 !important;
+    color: var(--rcie-issue-closed) !important;
 }
