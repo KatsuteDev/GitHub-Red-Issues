@@ -1,9 +1,9 @@
 /* Copyright (C) 2021 Katsute <https://github.com/Katsute> */
 
 :root {
-    --rcie-pull-merged: #8957e5;
-    --rcie-issue-closed: #F85149;
-    --rcie-white: #F0F6Fc;
+    --rcie-pull-merged: var(--color-done-emphasis, #8957e5);
+    --rcie-issue-closed: var(--color-danger-fg, #F85149);
+    --rcie-white: var(--color-fg-on-emphasis, #F0F6Fc);
 }
 
 /* issue icon */
