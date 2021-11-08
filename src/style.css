@@ -1,26 +1,15 @@
 /* Copyright (C) 2021 Katsute <https://github.com/Katsute> */
 
 :root { /* this part provided by kidonng <https://github.com/kidonng> */
-    --rcie-pull-merged: var(--color-done-emphasis, #8957e5);
+    --rcie-pull-merged : var(--color-done-emphasis, #8957e5);
     --rcie-issue-closed: var(--color-danger-fg, #F85149);
-    --rcie-white: var(--color-fg-on-emphasis, #F0F6Fc);
+    --rcie-white       : var(--color-fg-on-emphasis, #F0F6Fc);
 }
 
 /* issue icon */
 
-.issue-closed-done .octicon-issue-closed {
-    color: var(--rcie-issue-closed) !important;
-}
-
-/* issue hover */
-
-.Popover .octicon.octicon-issue-closed.color-text-danger {
-    color: var(--rcie-issue-closed) !important;
-}
-
-/* subscriptions */
-
-.issue-closed-done .octicon.octicon-issue-closed.color-text-danger {
+svg.octicon-issue-closed.closed,
+svg.octicon-issue-closed.color-fg-done {
     color: var(--rcie-issue-closed) !important;
 }
 
@@ -30,7 +19,7 @@ span[title="Status: Closed"] {
     background-color: var(--rcie-issue-closed) !important;
 }
 
-span[title="Status: Closed"] .octicon-issue-closed {
+span[title="Status: Closed"] > svg.octicon-issue-closed {
     color: var(--rcie-white) !important;
 }
 
@@ -40,7 +29,7 @@ span[title="Status: Closed"] .octicon-issue-closed {
     background-color: var(--rcie-issue-closed) !important;
 }
 
-:not(.rcie-merge).TimelineItem-badge.color-bg-done-emphasis .octicon {
+:not(.rcie-merge).TimelineItem-badge.color-bg-done-emphasis > svg.octicon-issue-closed {
     color: var(--rcie-white) !important;
 }
 
