@@ -1,0 +1,31 @@
+changelog:
+  categories:
+    - title: ⚠ Breaking Change
+      labels:
+        - breaking change
+    - title: ❌ Removed
+      labels:
+        - deprecated
+    - title: ⭐ New Features
+      labels:
+        - enhancements
+        - experimental
+        - feature
+        - feature request
+    - title: 🐞 Bug Fixes
+      labels:
+        - bug
+        - critical bug
+    - title: 📄 Documentation
+      labels:
+        - documentation
+    - title: 🔧 Optimizations
+      labels:
+        - optimization
+    - title: 🧰 Internal
+      labels:
+        - internal
+        - refactor
+    - title: 📘 Dependencies
+      labels:
+        - dependencies

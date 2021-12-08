@@ -1,10 +1,10 @@
-# GitHub Red Closed Issues Extension
+# GitHub Red Issues
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Google Chrome extension to revert closed GitHub issues from purple back to red.
 
-|[Report an issue](https://github.com/Katsute/GitHub-Red-Closed-Issues-Extension/issues)|[Download](https://github.com/Katsute/GitHub-Red-Closed-Issues-Extension/archive/refs/heads/main.zip)|
+|[Report an issue](https://github.com/Katsute/GitHub-Red-Issues/issues)|[Download](https://github.com/Katsute/GitHub-Red-Issues/archive/refs/heads/main.zip)|
 |---|---|
 
 ## Installation
@@ -26,3 +26,12 @@ Reverted closed issues from purple to red on:
 - Issues on search
 - Issues on projects
 - Issues on projects (beta)
+
+## Contributing
+
+- Found a bug? Open a new [issue](https://github.com/Katsute/GitHub-Red-Issues/issues).
+- Want to contribute? Create a [fork](https://github.com/Katsute/GitHub-Red-Issues/fork) and open a [pull request](https://github.com/Katsute/GitHub-Red-Issues/pulls).
+
+## License
+
+This extension is released under the [CC-BY-NC-SA 4.0 License](https://github.com/Katsute/GitHub-Red-Issues/blob/main/LICENSE).
