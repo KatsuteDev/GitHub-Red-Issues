@@ -1,16 +1,15 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
 
     "name": "GitHub Red Issues",
     "author": "Katsute",
     "description": "Revert closed GitHub issues from purple back to red.",
-    "version": "1.5",
+    "version": "2.0",
     "homepage_url": "https://github.com/Katsute/GitHub-Red-Issues",
 
-    "permissions": ["tabs"],
+    "permissions": [],
     "content_scripts": [{
         "css": ["style.css"],
-        "js": ["index.js"],
         "matches": ["https://github.com/*"]
     }]
 }

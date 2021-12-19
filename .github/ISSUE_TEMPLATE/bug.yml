@@ -46,7 +46,7 @@ body:
       description: |
         Release version or branch commit where the issue occured. Do not write 'latest'.
       placeholder: |
-        ex: v1.1, cc4cbc0
+        ex: v2, 8266f8b
     validations:
       required: true
 
@@ -83,12 +83,14 @@ body:
           required: false
         - label: Insights
           required: false
+        - label: Other (please specify)
+          required: false
 
   - type: textarea
     id: issue
     attributes:
       label: Issue
       description: |
-        Explain your issue, add any relevant stacktraces here.
+        Explain your issue.
     validations:
-      required: true
+      required: false
