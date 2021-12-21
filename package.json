@@ -1,0 +1,19 @@
+{
+    "name": "github-red-issues",
+    "version": "main",
+    "description": "Revert closed GitHub issues from purple back to red",
+    "private": true,
+    "scripts": {
+
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Katsute/GitHub-Red-Issues.git"
+    },
+    "author": "Katsute",
+    "license": "CC-BY-NC-SA-4.0",
+    "bugs": {
+        "url": "https://github.com/Katsute/GitHub-Red-Issues/issues"
+    },
+    "homepage": "https://github.com/Katsute/GitHub-Red-Issues#readme"
+}
