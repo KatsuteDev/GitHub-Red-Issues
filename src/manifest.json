@@ -11,6 +11,7 @@
         "48": "icon48.png",
         "128": "icon128.png"
     },
+
     "permissions": [],
     "content_scripts": [{
         "css": ["style.css"],
