@@ -11,7 +11,7 @@
         •
         <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc">Chrome Extension</a>
         •
-        <a href="">Mozilla Add-on</a>
+        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues">Mozilla Add-on</a>
     </div>
     <br>
     <div>
@@ -19,8 +19,8 @@
         <br><br>
         <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://img.shields.io/chrome-web-store/stars/kjbbjibfgnnfdeabgmbieapkhpojikpc?label=Chrome&style=flat-square" alt="Chrome Web Store Rating"></a>
         <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://img.shields.io/chrome-web-store/users/kjbbjibfgnnfdeabgmbieapkhpojikpc?label=Chrome&style=flat-square" alt="Chrome Web Store Users"></a>
-        <a href=""><img src="https://img.shields.io/amo/stars/null?label=Firefox&style=flat-square" alt="Mozilla Firefox Rating"></a>
-        <a href=""><img src="https://img.shields.io/amo/users/null?label=Firefox&style=flat-square" alt="Mozilla Firefox Users"></a>
+        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/stars/github-red-issues?label=Firefox&style=flat-square" alt="Mozilla Firefox Rating"></a>
+        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/users/github-red-issues?label=Firefox&style=flat-square" alt="Mozilla Firefox Users"></a>
     </div>
 </div>
 
@@ -35,8 +35,8 @@
 
 #### Firefox
 
-<a href=""><img src="https://raw.githubusercontent.com/Katsute/GitHub-Red-Issues/main/assets/firefox.svg" width="48" alt="Mozilla Firefox"></a>
-[![Mozilla Add-on](https://img.shields.io/amo/v/null?label=%20&style=flat-square)]()
+<a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://raw.githubusercontent.com/Katsute/GitHub-Red-Issues/main/assets/firefox.svg" width="48" alt="Mozilla Firefox"></a>
+[![Mozilla Add-on](https://img.shields.io/amo/v/github-red-issues?label=%20&style=flat-square)](https://addons.mozilla.org/firefox/addon/github-red-issues)
 
 #### Checkout
 
