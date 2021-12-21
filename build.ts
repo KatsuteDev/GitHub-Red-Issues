@@ -9,29 +9,46 @@ class Main {
         const src : string = path.join(__dirname, "src");
         const dist: string = path.join(__dirname, "dist");
 
-        // clear directory
-        if(fs.existsSync(dist))
+        const chrome : string = path.join(__dirname, "chrome.zip");
+        const firefox: string = path.join(__dirname, "firefox.zip");
+
+        /* clear dist */ {
+            if(fs.existsSync(dist))
+                for(const file of fs.readdirSync(dist))
+                    fs.unlinkSync(path.join(dist, file));
+            else
+                fs.mkdirSync(dist);
+
+            !fs.existsSync(chrome) || fs.unlinkSync(chrome);
+            !fs.existsSync(firefox) || fs.unlinkSync(firefox);
+        }
+
+        /* copy src to zip */ {
+            for(const file of fs.readdirSync(src))
+                fs.copyFileSync(path.join(src, file), path.join(dist, file));
+        }
+
+        /* chrome */ {
+            await zip(dist, chrome);
+        }
+
+        /* firefox */ {
+            // downgrade manifest
+            const manifest: string = path.join(dist, "manifest.json");
+
+            fs.writeFileSync(manifest,
+                fs.readFileSync(manifest, "utf-8")
+                    .replace(`"manifest_version": 3`, `"manifest_version": 2`));
+
+            // zip firefox add-on
+            await zip(dist, firefox);
+        }
+
+        /* cleanup */ {
             for(const file of fs.readdirSync(dist))
                 fs.unlinkSync(path.join(dist, file));
-
-        // copy src to dist
-        for(const file of fs.readdirSync(src))
-            fs.copyFileSync(path.join(src, file), path.join(dist, file));
-
-        // zip chrome extension
-        await zip(dist, path.join(__dirname, "chrome.zip"));
-
-        // downgrade manifest for firefox
-        fs.writeFileSync(path.join(dist, "manifest.json"),
-            fs.readFileSync(path.join(dist, "manifest.json"), "utf-8")
-                .replace(`"manifest_version": 3`, `"manifest_version": 2`));
-
-        // zip firefox add-on
-        await zip(dist, path.join(__dirname, "firefox.zip"));
-
-        // cleanup
-        for(const file of fs.readdirSync(dist))
-            fs.unlinkSync(path.join(dist, file));
+            fs.rmdirSync(dist);
+        }
     }
 
 }
