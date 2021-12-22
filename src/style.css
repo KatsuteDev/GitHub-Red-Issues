@@ -23,14 +23,20 @@ span[title="Status: Closed"] > svg.octicon-issue-closed {
     color: var(--rissue-white) !important;
 }
 
-/* timeline */
+/* issue timeline */
 
-:not(.rissue-merge).TimelineItem-badge.color-bg-done-emphasis {
+.TimelineItem-badge.color-bg-done-emphasis {
     background-color: var(--rissue-issue-closed) !important;
 }
 
-:not(.rissue-merge).TimelineItem-badge.color-bg-done-emphasis > svg.octicon-issue-closed {
+.TimelineItem-badge.color-bg-done-emphasis > svg.octicon-issue-closed {
     color: var(--rissue-white) !important;
+}
+
+/* pull timeline */
+
+div.pull-discussion-timeline .TimelineItem-badge.color-bg-done-emphasis {
+    background-color: var(--rissue-pull-merged) !important;
 }
 
 /* projects beta */

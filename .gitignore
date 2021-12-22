@@ -1,6 +1,10 @@
 .vs
 .vscode
 
+/node_modules
+
+/dist
+
 *.crx
 *.pem
 *.zip
