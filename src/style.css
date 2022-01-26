@@ -41,6 +41,6 @@ div.pull-discussion-timeline .TimelineItem-badge.color-bg-done-emphasis {
 
 /* projects beta */
 
-svg[aria-label="Closed issue"] {
+svg[aria-label="Closed as completed issue"] {
     color: var(--rissue-issue-closed) !important;
 }
