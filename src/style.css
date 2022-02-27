@@ -10,8 +10,7 @@
 
 /* issue icon */
 
-svg.octicon-issue-closed.closed,
-svg.octicon-issue-closed.color-fg-done {
+svg.octicon-issue-closed.closed {
     color: var(--rissue-issue-closed-fg) !important;
 }
 
