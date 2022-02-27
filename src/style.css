@@ -9,34 +9,21 @@
 }
 
 /* issue icon */
-
-svg.octicon-issue-closed.closed {
+:not(span.State.State--merged):not(div.TimelineItem-badge) > svg.octicon-issue-closed,
+/* projects beta icon */
+div[data-hovercard-subject-tag^="issue:"] path[d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"],
+div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"]
+{
     color: var(--rissue-issue-closed-fg) !important;
 }
 
 /* issue badge */
-
 #show_issue .gh-header-meta .State.State--merged,
-#show_issue .gh-header-sticky .State.State--merged {
-    background-color: var(--rissue-issue-closed) !important;
-}
-
+#show_issue .gh-header-sticky .State.State--merged,
 /* issue timeline icon */
-
-#show_issue .TimelineItem .TimelineItem-badge.color-bg-done-emphasis {
+#show_issue .TimelineItem .TimelineItem-badge.color-bg-done-emphasis,
+/* pull timeline closed issue label */
+.pull-discussion-timeline .TimelineItem-body .State.State--merged
+{
     background-color: var(--rissue-issue-closed) !important;
-}
-
-/* pull timeline */
-
-.pull-discussion-timeline .TimelineItem-body .State.State--merged {
-    background-color: var(--rissue-issue-closed) !important;
-}
-
-/* projects beta */
-
-svg[aria-label="Closed as completed issue"],
-div[data-hovercard-subject-tag^="issue:"] path[d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"],
-div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"] {
-    color: var(--rissue-issue-closed) !important;
 }
