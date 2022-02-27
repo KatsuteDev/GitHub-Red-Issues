@@ -22,8 +22,8 @@ div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 110 8a8 8 0 0116 0
 #show_issue .gh-header-sticky .State.State--merged,
 /* issue timeline icon */
 #show_issue .TimelineItem .TimelineItem-badge.color-bg-done-emphasis,
-/* pull timeline closed issue label */
-.pull-discussion-timeline .TimelineItem-body .State.State--merged
+/* timeline closed issue label */
+.TimelineItem .TimelineItem-body div[id^="ref-issue-"] ~ div span.State.State--merged
 {
     background-color: var(--rissue-issue-closed) !important;
 }
