@@ -24,8 +24,13 @@ div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 110 8a8 8 0 0116 0
 #show_issue .TimelineItem > .TimelineItem-badge.color-bg-done-emphasis,
 /* timeline mention closed issue label */
 .TimelineItem > .TimelineItem-body div[id^="ref-issue-"] ~ div > span.State.State--merged,
-/* pull timeline closed issue label */
-.pull-discussion-timeline .TimelineItem > .TimelineItem-body ~ div[id^="issue-"] ~ div span.State.State--merged
+/* pull timeline closed label */
+.pull-discussion-timeline .TimelineItem > .TimelineItem-body div span.State.State--merged
 {
     background-color: var(--rissue-issue-closed) !important;
+}
+
+/* pull timeline closed mention label override */
+.pull-discussion-timeline .TimelineItem > .TimelineItem-body div[id^="ref-pullrequest-"] ~ div span.State.State--merged {
+    background-color: var(--rissue-pull-merged) !important;
 }
