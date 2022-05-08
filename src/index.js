@@ -10,7 +10,10 @@ function updateProjects(){
 
     // sidebar
     for(const path of paths){
-        if(path.parentElement.parentElement.tagName.toLowerCase() == "span"){
+        if(
+            path.parentElement.parentElement.tagName.toLowerCase() == "span" &&
+            path.parentElement.parentElement.parentElement.tagName.toLowerCase() != "button"
+        ){
             path.parentElement.parentElement.classList.add("rissue-closed-bg");
             break;
         }
