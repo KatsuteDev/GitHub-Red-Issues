@@ -39,10 +39,8 @@ div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 110 8a8 8 0 0116 0
 
 .rissue-closed-fg {
     color: var(--rissue-issue-closed-fg) !important;
-    transition: color ease-in-out .5s;
 }
 
 .rissue-closed-bg {
     background-color: var(--rissue-issue-closed) !important;
-    transition: background-color ease-in-out .5s;
 }
