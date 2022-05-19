@@ -18,7 +18,7 @@ if(window.location.pathname.toLowerCase().includes("/projects/"))
             if(i.target.tagName && i.target.tagName.toLowerCase() == "svg") // find svg
                 for(const child of i.target.children) // check svg content
                     if(child.getAttribute("d") == "M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z") // checkmark
-                        setTimeout(() => {
+                        return setTimeout(() => {
                             i.target.parentElement.classList.add("rissue-closed-bg"); // apply css
                         }, 100); // doesn't work unless we delay
         });
