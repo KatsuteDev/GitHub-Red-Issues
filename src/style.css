@@ -34,3 +34,13 @@ div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 110 8a8 8 0 0116 0
 .pull-discussion-timeline .TimelineItem > .TimelineItem-body div[id^="ref-pullrequest-"] ~ div span.State.State--merged {
     background-color: var(--rissue-pull-merged) !important;
 }
+
+/* js overrides */
+
+.rissue-closed-fg {
+    color: var(--rissue-issue-closed-fg) !important;
+}
+
+.rissue-closed-bg {
+    background-color: var(--rissue-issue-closed) !important;
+}
