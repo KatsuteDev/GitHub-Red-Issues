@@ -1,3 +1,5 @@
+// Copyright (C) 2022 Katsute <https://github.com/Katsute>
+
 import fs from "fs";
 import path from "path";
 
