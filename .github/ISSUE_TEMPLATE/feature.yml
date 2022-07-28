@@ -8,7 +8,7 @@ body:
       value: |
         Before opening a feature request please check that your idea was not already discussed in the following:
 
-        * [Issues](https://github.com/Katsute/GitHub-Red-Issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature+request%22)
+        * [Issues](https://github.com/KatsuteDev/GitHub-Red-Issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature+request%22)
 
         Please also check that:
 

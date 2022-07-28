@@ -8,7 +8,7 @@ body:
       value: |
         Before opening a bug report please check that your issue was not already discussed in the following:
 
-        * [Issues](https://github.com/Katsute/GitHub-Red-Issues/issues?q=is%3Aissue+is%3Aopen+label%3Abug%2C%22critical+bug%22)
+        * [Issues](https://github.com/KatsuteDev/GitHub-Red-Issues/issues?q=is%3Aissue+is%3Aopen+label%3Abug%2C%22critical+bug%22)
 
         Please also check that:
 
