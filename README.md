@@ -12,13 +12,13 @@
         <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc">Chrome Extension</a>
         •
         <a href="https://addons.mozilla.org/firefox/addon/github-red-issues">Mozilla Add-on</a>
-    <br>
+    <br><br>
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License"></a>
-        <br><br>
-        <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://img.shields.io/chrome-web-store/stars/kjbbjibfgnnfdeabgmbieapkhpojikpc?label=Chrome&style=flat-square" alt="Chrome Web Store Rating"></a>
-        <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://img.shields.io/chrome-web-store/users/kjbbjibfgnnfdeabgmbieapkhpojikpc?label=Chrome&style=flat-square" alt="Chrome Web Store Users"></a>
-        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/stars/github-red-issues?label=Firefox&style=flat-square" alt="Mozilla Firefox Rating"></a>
-        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/users/github-red-issues?label=Firefox&style=flat-square" alt="Mozilla Firefox Users"></a>
+    <br><br>
+        <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://img.shields.io/chrome-web-store/stars/kjbbjibfgnnfdeabgmbieapkhpojikpc?label=Chrome&style=flat-square&color=blue" alt="Chrome Web Store Rating"></a>
+        <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://img.shields.io/chrome-web-store/users/kjbbjibfgnnfdeabgmbieapkhpojikpc?label=Chrome&style=flat-square&color=blue" alt="Chrome Web Store Users"></a>
+        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/stars/github-red-issues?label=Firefox&style=flat-square&color=blue" alt="Mozilla Firefox Rating"></a>
+        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/users/github-red-issues?label=Firefox&style=flat-square&color=blue" alt="Mozilla Firefox Users"></a>
     </div>
 </div>
 
@@ -53,10 +53,18 @@ Reverted closed issues from purple to red on:
  - Issues on issues tab
  - Issues on subscriptions list
  - Issues on search
- - Issues on projects
- - Issues on projects (beta)
+ - Issues on project boards
+ - Issues on project tables
 
 ## 👨‍💻 Contributing
+
+<!-- GitHub Copilot Disclaimer -->
+<table>
+    <img alt="GitHub Copilot" align="left" src="https://raw.githubusercontent.com/KatsuteDev/.github/main/profile/copilot-dark.png#gh-dark-mode-only" width="50">
+    <img alt="GitHub Copilot" align="left" src="https://raw.githubusercontent.com/KatsuteDev/.github/main/profile/copilot-light.png#gh-light-mode-only" width="50">
+    <p>GitHub Copilot is <b>strictly prohibited</b> on this repository.<br>Pulls using this will be rejected.</p>
+</table>
+<!-- GitHub Copilot Disclaimer -->
 
  - Found a bug? Open a new [issue](https://github.com/KatsuteDev/GitHub-Red-Issues/issues).
  - Want to contribute? Create a [fork](https://github.com/KatsuteDev/GitHub-Red-Issues/fork) and open a [pull request](https://github.com/KatsuteDev/GitHub-Red-Issues/pulls).
