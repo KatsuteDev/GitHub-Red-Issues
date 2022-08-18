@@ -30,6 +30,12 @@ div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 110 8a8 8 0 0116 0
     background-color: var(--rissue-issue-closed) !important;
 }
 
+@media print {
+
+    /* only add selectors specific to print, check light/dark */
+
+}
+
 /* pull timeline closed mention label override */
 .pull-discussion-timeline .TimelineItem > .TimelineItem-body div[id^="ref-pullrequest-"] ~ div span.State.State--merged {
     background-color: var(--rissue-pull-merged) !important;
