@@ -33,6 +33,14 @@ body:
     validations:
       required: true
 
+  - type: input
+    attributes:
+      label: Theme
+      description: |
+        Which GitHub theme you are using (ex: light/dark).
+    validations:
+      required: true
+
   - type: checkboxes
     id: component
     attributes:
@@ -60,9 +68,11 @@ body:
           required: false
         - label: Search
           required: false
-        - label: Projects
+        - label: Print
           required: false
-        - label: Projects (beta)
+        - label: Project Boards
+          required: false
+        - label: Project Tables (beta)
           required: false
         - label: Insights
           required: false

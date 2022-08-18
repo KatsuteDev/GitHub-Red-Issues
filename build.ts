@@ -1,7 +1,7 @@
 // Copyright (C) 2022 Katsute <https://github.com/Katsute>
 
-import fs from "fs";
-import path from "path";
+import * as fs from "fs";
+import * as path from "path";
 
 import { zip } from 'zip-a-folder';
 
