@@ -36,11 +36,25 @@ div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 110 8a8 8 0 0116 0
 }
 
 /* js overrides */
-
 .rissue-closed-fg {
     color: var(--rissue-issue-closed-fg) !important;
 }
 
 .rissue-closed-bg {
     background-color: var(--rissue-issue-closed) !important;
+}
+
+/* print */
+@media print {
+    /* issue badge */
+    #show_issue .gh-header-meta .State.State--merged,
+    #show_issue .gh-header-sticky .State.State--merged,
+    /* timeline mention closed issue label */
+    .TimelineItem > .TimelineItem-body div[id^="ref-issue-"] ~ div > span.State.State--merged,
+    /* pull timeline closed label */
+    .pull-discussion-timeline .TimelineItem > .TimelineItem-body div span.State.State--merged {
+        background: none !important;
+        color: var(--rissue-issue-closed-fg) !important;
+        border-color: var(--rissue-issue-closed) !important;
+    }
 }

@@ -1,11 +1,11 @@
 // Copyright (C) 2022 Katsute <https://github.com/Katsute>
 
-import fs from "fs";
-import path from "path";
+import * as fs from "fs";
+import * as path from "path";
 
-import { zip } from 'zip-a-folder';
+import { zip } from "zip-a-folder";
 
-class Main {
+abstract class Main {
 
     public static async main(): Promise<void> {
         const src : string = path.join(__dirname, "src");
@@ -16,13 +16,11 @@ class Main {
 
         /* clear dist */ {
             if(fs.existsSync(dist))
-                for(const file of fs.readdirSync(dist))
-                    fs.unlinkSync(path.join(dist, file));
-            else
-                fs.mkdirSync(dist);
+                fs.rmSync(dist, {recursive: true});
+            fs.mkdirSync(dist);
 
-            !fs.existsSync(chrome) || fs.unlinkSync(chrome);
-            !fs.existsSync(firefox) || fs.unlinkSync(firefox);
+            !fs.existsSync(chrome) || fs.rmSync(chrome, {recursive: true});
+            !fs.existsSync(firefox) || fs.rmSync(firefox, {recursive: true});
         }
 
         /* copy src to zip */ {
@@ -47,9 +45,7 @@ class Main {
         }
 
         /* cleanup */ {
-            for(const file of fs.readdirSync(dist))
-                fs.unlinkSync(path.join(dist, file));
-            fs.rmdirSync(dist);
+            fs.rmSync(dist, {recursive: true});
         }
     }
 
