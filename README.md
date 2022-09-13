@@ -26,15 +26,15 @@
 
 #### Chrome (recommended)
 
-<a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/chrome.svg" width="48" alt="Google Chrome"></a>
-<a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/edge.svg" width="48" alt="Microsoft Edge"></a>
-<a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/opera.svg" width="48" alt="Opera"></a>
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kjbbjibfgnnfdeabgmbieapkhpojikpc?label=%20&style=flat-square)](https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc)
+<a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img alt="Google Chrome" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/chrome.svg"></a>
+<a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img alt="Microsoft Edge" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/edge.svg"></a>
+<a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img alt="Opera" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/opera.svg"></a>
+<a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img alt="Chrome Web Store" valign="middle" src="https://img.shields.io/chrome-web-store/v/kjbbjibfgnnfdeabgmbieapkhpojikpc?label=%20&style=flat-square"></a>
 
 #### Firefox (recommended)
 
-<a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/firefox.svg" width="48" alt="Mozilla Firefox"></a>
-[![Mozilla Add-on](https://img.shields.io/amo/v/github-red-issues?label=%20&style=flat-square)](https://addons.mozilla.org/firefox/addon/github-red-issues)
+<a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img alt="Mozilla Firefox" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/firefox.svg"></a>
+<a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img alt="Mozilla Add-on" valign="middle" src="https://img.shields.io/amo/v/github-red-issues?label=%20&style=flat-square"></a>
 
 #### Checkout
 
