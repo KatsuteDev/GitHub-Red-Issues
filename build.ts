@@ -36,7 +36,7 @@ abstract class Main {
                     .replace(/ +/gm, ' ') // extra spaces
                     .replace(/^ +/gm, '') // leading space
                     .replace(/\r?\n/gm, '') // new line
-                    .trim())
+                    .trim());
         }
 
         /* chrome */ {
