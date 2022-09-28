@@ -1,4 +1,4 @@
-// Copyright (C) 2022 Katsute <https://github.com/Katsute>
+/* Copyright (C) 2022 Katsute <https://github.com/Katsute> */
 
 "use strict";
 
@@ -8,9 +8,9 @@ const whenElementAdded = (selector, f) => {
         if(e != null){
             f(e);
             clearInterval(init);
-        }
+        };
     }, 1000 * 1);
-}
+};
 
 if(window.location.pathname.toLowerCase().includes("/projects/"))
     whenElementAdded(`#__primerPortalRoot__`, (e) => {
