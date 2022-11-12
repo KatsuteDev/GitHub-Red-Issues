@@ -17,8 +17,10 @@
         whenElementAdded(`#__primerPortalRoot__`, (e) => {
             e.addEventListener("DOMNodeInserted", (i) => {
                 let svg;
-                if(svg = i.target.querySelector("figure > span > svg"))
-                    svg.querySelector(`path[d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"]`).parentElement.parentElement.classList.add("rissue-closed-bg");
+                if(svg = i.target.querySelector("figure > span > svg")){
+                    let path = svg.querySelector(`path[d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"]`);
+                    path && path.parentElement.parentElement.classList.add("rissue-closed-bg");
+                }
             });
         });
 
@@ -30,7 +32,6 @@
 
         whenElementAdded(`react-app[app-name="blackbird-search"]`, (e) => {
             apply(e);
-
             e.addEventListener("DOMNodeInserted", (i) => i.target.querySelector("[style]") && apply(e));
         });
     }
