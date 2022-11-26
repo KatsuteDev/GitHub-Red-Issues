@@ -11,16 +11,14 @@ abstract class Main {
         const src : string = path.join(__dirname, "src");
         const dist: string = path.join(__dirname, "dist");
 
-        const chrome : string = path.join(__dirname, "chrome.zip");
-        const firefox: string = path.join(__dirname, "firefox.zip");
+        const ext : string = path.join(__dirname, "extension.zip");
 
         /* clear dist */ {
             if(fs.existsSync(dist))
                 fs.rmSync(dist, {recursive: true});
             fs.mkdirSync(dist);
 
-            !fs.existsSync(chrome) || fs.rmSync(chrome, {recursive: true});
-            !fs.existsSync(firefox) || fs.rmSync(firefox, {recursive: true});
+            !fs.existsSync(ext) || fs.rmSync(ext, {recursive: true});
         }
 
         /* copy src to zip */ {
@@ -39,25 +37,9 @@ abstract class Main {
                     .trim());
         }
 
-        /* chrome */ {
-            await zip(dist, chrome);
-        }
+        await zip(dist, ext);
 
-        /* firefox */ {
-            // downgrade manifest
-            const manifest: string = path.join(dist, "manifest.json");
-
-            fs.writeFileSync(manifest,
-                fs.readFileSync(manifest, "utf-8")
-                    .replace(`"manifest_version": 3`, `"manifest_version": 2`));
-
-            // zip firefox add-on
-            await zip(dist, firefox);
-        }
-
-        /* cleanup */ {
-            fs.rmSync(dist, {recursive: true});
-        }
+        fs.rmSync(dist, {recursive: true});
     }
 
 }

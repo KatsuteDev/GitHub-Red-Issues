@@ -1,7 +1,5 @@
 {
     "name": "github-red-issues",
-    "version": "main",
-    "description": "Revert closed GitHub issues from purple back to red",
     "private": true,
     "scripts": {
         "build": "ts-node build.ts"
