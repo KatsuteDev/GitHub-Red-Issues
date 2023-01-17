@@ -1,4 +1,4 @@
-// Copyright (C) 2022 Katsute <https://github.com/Katsute>
+// Copyright (C) 2023 Katsute <https://github.com/Katsute>
 
 import * as fs from "fs";
 import * as path from "path";
