@@ -1,7 +1,5 @@
 {
     "name": "github-red-issues",
-    "version": "main",
-    "description": "Revert closed GitHub issues from purple back to red",
     "private": true,
     "scripts": {
         "build": "ts-node build.ts"
@@ -17,7 +15,7 @@
     },
     "homepage": "https://github.com/KatsuteDev/GitHub-Red-Issues#readme",
     "devDependencies": {
-        "@types/node": "18.11.9",
+        "@types/node": "18.11.18",
         "typescript": "4.9.4",
         "zip-a-folder": "1.1.5"
     }
