@@ -15,7 +15,7 @@
     },
     "homepage": "https://github.com/KatsuteDev/GitHub-Red-Issues#readme",
     "devDependencies": {
-        "@types/node": "18.11.18",
+        "@types/node": "18.13.0",
         "typescript": "4.9.5",
         "zip-a-folder": "1.1.5"
     }
