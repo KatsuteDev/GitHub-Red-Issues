@@ -66,9 +66,6 @@ Reverted closed issues from purple to red on:
 </table>
 <!-- GitHub Copilot Disclaimer -->
 
- - Found a bug? Open a new [issue](https://github.com/KatsuteDev/GitHub-Red-Issues/issues).
- - Want to contribute? Create a [fork](https://github.com/KatsuteDev/GitHub-Red-Issues/fork) and open a [pull request](https://github.com/KatsuteDev/GitHub-Red-Issues/pulls).
-
 ### 💼 License
 
 This extension is released under the [CC-BY-NC-SA 4.0 License](https://github.com/KatsuteDev/GitHub-Red-Issues/blob/main/LICENSE).
