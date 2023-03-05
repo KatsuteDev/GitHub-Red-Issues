@@ -40,5 +40,5 @@
     };
 
     init();
-    window.addEventListener("turbo:visit", init);
+    window.addEventListener("turbo:render", init);
 })();
