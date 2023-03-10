@@ -28,10 +28,6 @@ changelog:
     - title: 🔧 Optimizations
       labels:
         - optimization
-    - title: 🧰 Internal
-      labels:
-        - internal
-        - refactor
     - title: 📘 Dependencies
       labels:
         - dependencies
