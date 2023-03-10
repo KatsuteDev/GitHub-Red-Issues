@@ -1,2 +1,0 @@
-next_release_name: ${next_minor_version}
-next_release_tag: ${next_minor_version}
