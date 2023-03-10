@@ -22,6 +22,7 @@ changelog:
       labels:
         - bug
         - critical bug
+        - critical issue
     - title: 📄 Documentation
       labels:
         - documentation
