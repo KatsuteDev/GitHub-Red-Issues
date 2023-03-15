@@ -12,7 +12,9 @@
 :not(.State.State--merged):not(.TimelineItem-badge) > svg.octicon-issue-closed,
 /* projects beta icon */
 div[data-hovercard-subject-tag^="issue:"] path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z"],
-div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"]
+div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"],
+/* discussion icon */
+svg.octicon-discussion-closed
 {
     color: var(--rissue-issue-closed-fg) !important;
 }
@@ -23,9 +25,11 @@ div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 
 /* issue timeline icon */
 #show_issue .TimelineItem > .TimelineItem-badge.color-bg-done-emphasis,
 /* timeline mention closed issue label */
-.TimelineItem > .TimelineItem-body div[id^="ref-issue-"] ~ div > span.State.State--merged,
+.TimelineItem > .TimelineItem-body div[id^="ref-issue-"] ~ div > span.State--merged,
 /* pull timeline closed label */
-.pull-discussion-timeline .TimelineItem > .TimelineItem-body div span.State.State--merged
+.pull-discussion-timeline .TimelineItem > .TimelineItem-body div span.State--merged,
+/* discussion badge */
+#discussion_bucket span.State--merged
 {
     background-color: var(--rissue-issue-closed) !important;
 }
@@ -50,9 +54,11 @@ div[data-hovercard-subject-tag^="issue:"] path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 
     #show_issue .gh-header-meta .State.State--merged,
     #show_issue .gh-header-sticky .State.State--merged,
     /* timeline mention closed issue label */
-    .TimelineItem > .TimelineItem-body div[id^="ref-issue-"] ~ div > span.State.State--merged,
+    .TimelineItem > .TimelineItem-body div[id^="ref-issue-"] ~ div > span.State--merged,
     /* pull timeline closed label */
-    .pull-discussion-timeline .TimelineItem > .TimelineItem-body div span.State.State--merged {
+    .pull-discussion-timeline .TimelineItem > .TimelineItem-body div span.State--merged,
+    /* discussion badge */
+    #discussion_bucket span.State.State--merged {
         background: none !important;
         color: var(--rissue-issue-closed-fg) !important;
         border-color: var(--rissue-issue-closed) !important;
