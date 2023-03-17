@@ -10,10 +10,6 @@ const dist = path.join(__dirname, "dist");
 
 const ext  = path.join(__dirname, "extension.zip");
 
-(async () => {
-
-})();
-
 /* clear dist */ {
     if(fs.existsSync(dist))
         fs.rmSync(dist, {recursive: true});

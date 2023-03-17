@@ -1,11 +1,12 @@
 name: Feature Request
 description: Suggest a new feature
 labels: [enhancement]
-assignees: []
 body:
   - type: markdown
     attributes:
       value: |
+        This extension is mainly focused on fixing colors, if you are suggesting a new feature for the UI, consider using [Refined GitHub](https://github.com/refined-github/refined-github) instead.
+
         Before opening a feature request please check that your idea was not already discussed in the following:
 
         * [Issues](https://github.com/KatsuteDev/GitHub-Red-Issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature+request%22)

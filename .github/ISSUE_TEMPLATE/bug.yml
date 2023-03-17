@@ -1,7 +1,6 @@
 name: Bug Report
 description: Report a bug
 labels: [bug]
-assignees: []
 body:
   - type: markdown
     attributes:
@@ -50,7 +49,7 @@ body:
       options:
         - label: Pinned issues
           required: false
-        - label: Closed issues
+        - label: Issues
           required: false
         - label: Issue timeline
           required: false
@@ -58,11 +57,13 @@ body:
           required: false
         - label: Issue hovercard
           required: false
-        - label: Closed pulls
+        - label: Pulls
           required: false
         - label: Pull timeline
           required: false
         - label: Pull hovercard
+          required: false
+        - label: Discussions
           required: false
         - label: Subscriptions
           required: false
@@ -72,7 +73,7 @@ body:
           required: false
         - label: Project Boards
           required: false
-        - label: Project Tables (beta)
+        - label: Project Tables
           required: false
         - label: Insights
           required: false
