@@ -5,7 +5,7 @@
     --rissue-pull-merged-fg  : var(--color-done-fg, #a371f7);
     --rissue-issue-closed    : var(--color-danger-emphasis, #da3633);
     --rissue-issue-closed-fg : var(--color-danger-fg, #f85149);
-    --rissue-white-fg        : var(--color-fg-on-emphasis, #F0F6Fc);
+    --rissue-issue-closed-bg : var(--color-bg-danger, rgba(248, 81, 73, 0.1));
 }
 
 /* issue icon */
@@ -14,7 +14,9 @@
 main#memex-project-view-root path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z"],
 main#memex-project-view-root path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"],
 /* discussion icon */
-:not(.State.State--merged) > svg.octicon-discussion-closed
+:not(.State.State--merged) > svg.octicon-discussion-closed,
+/* tasklist */
+tasklist-block-title > div.color-bg-done > svg
 {
     color: var(--rissue-issue-closed-fg) !important;
 }
@@ -37,6 +39,16 @@ main#memex-project-view-root path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a
 /* pull timeline closed mention label override */
 .pull-discussion-timeline .TimelineItem > .TimelineItem-body div[id^="ref-pullrequest-"] ~ div span.State.State--merged {
     background-color: var(--rissue-pull-merged) !important;
+}
+
+/* tasklist progress */
+tracked-issues-progress svg > circle:last-child {
+    stroke: var(--rissue-issue-closed) !important;
+}
+
+/* tasklist */
+tasklist-block-title > div.color-bg-done {
+    background-color: var(--rissue-issue-closed-bg) !important;
 }
 
 /* js overrides */
