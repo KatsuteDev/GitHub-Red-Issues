@@ -41,8 +41,9 @@ tasklist-block-title > div.color-bg-done > svg
     background-color: var(--rissue-pull-merged) !important;
 }
 
-/* tasklist progress */
-tracked-issues-progress svg > circle:last-child {
+/* tasklist circle */
+tracked-issues-progress[data-type="tasklist_block"] svg > circle:last-child,
+tracked-issues-progress[data-type="tasklist_item"] svg > circle:last-child {
     stroke: var(--rissue-issue-closed) !important;
 }
 
