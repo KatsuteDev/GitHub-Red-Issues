@@ -50,11 +50,13 @@ Reverted closed issues from purple to red on:
  - Pinned issues
  - Issue hover cards
  - Issue/pull timelines
- - Issues on issues tab
- - Issues on subscriptions list
- - Issues on search
- - Issues on project boards
- - Issues on project tables
+ - Issues tab
+ - Subscriptions list
+ - Search
+ - Project boards
+ - Project tables
+ - Discussions
+ - Tasklist
 
 ## 👨‍💻 Contributing
 
