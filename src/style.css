@@ -11,8 +11,8 @@
 /* issue icon */
 :not(.State.State--merged):not(.TimelineItem-badge) > svg.octicon-issue-closed,
 /* projects beta icon */
-main#memex-project-view-root path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z"],
-main#memex-project-view-root path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"],
+projects-v2 :not(.rissue-closed-bg > svg) > path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z"],
+projects-v2 :not(.rissue-closed-bg > svg) > path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"],
 /* discussion icon */
 :not(.State.State--merged) > svg.octicon-discussion-closed,
 /* tasklist */
@@ -31,8 +31,7 @@ tasklist-block-title > div.color-bg-done > svg
 /* pull timeline closed label */
 .pull-discussion-timeline .TimelineItem > .TimelineItem-body div span.State--merged,
 /* discussion badge */
-#partial-discussion-header.js-discussions-title-container span.State--merged
-{
+#partial-discussion-header.js-discussions-title-container span.State--merged {
     background-color: var(--rissue-issue-closed) !important;
 }
 
@@ -43,7 +42,10 @@ tasklist-block-title > div.color-bg-done > svg
 
 /* tasklist circle */
 tracked-issues-progress[data-type="tasklist_block"] svg > circle:last-child,
-tracked-issues-progress[data-type="tasklist_item"] svg > circle:last-child {
+tracked-issues-progress[data-type="tasklist_item"] svg > circle:last-child,
+/* projects tasklist circle */
+svg[data-target="tracked-issues-progress.progress"] > path,
+svg[data-target="tracked-issues-progress.progress"] > circle:last-child {
     stroke: var(--rissue-issue-closed) !important;
 }
 
