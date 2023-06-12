@@ -16,6 +16,6 @@
     },
     "homepage": "https://github.com/KatsuteDev/GitHub-Red-Issues#readme",
     "devDependencies": {
-        "zip-a-folder": "1.1.5"
+        "zip-a-folder": "2.0.0"
     }
 }
