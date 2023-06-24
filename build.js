@@ -24,7 +24,7 @@ const ext  = path.join(__dirname, "extension.zip");
 }
 
 /* minify */ {
-    for(const file of ["index.js", "style.css"])
+    for(const file of ["style.css"])
         fs.writeFileSync(path.join(dist, file), fs.readFileSync(path.join(dist, file), "utf-8")
             .replace(/(?<!^)\/\*.*\*\//g, '') // /* comments (except first copyright)
             .replace(/ \/\/.*$/gm,'') // // comments

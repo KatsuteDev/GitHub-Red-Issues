@@ -6,6 +6,25 @@
     --rissue-issue-closed-bg : var(--color-bg-danger, rgba(248, 81, 73, 0.1));
 }
 
+@supports not selector(:has(+ *)) {
+
+    body::before {
+
+        width: 100%;
+        z-index: 1000;
+        display: block;
+        position: fixed;
+
+        color: white;
+        background-color: var(--rissue-issue-closed-fg);
+
+        padding: .1rem;
+        content: "⚠️ Firefox does not yet support the :𝚑𝚊𝚜 CSS selector, enable it using the 𝚕𝚊𝚢𝚘𝚞𝚝.𝚌𝚜𝚜.𝚑𝚊𝚜-𝚜𝚎𝚕𝚎𝚌𝚝𝚘𝚛.𝚎𝚗𝚊𝚋𝚕𝚎𝚍 flag in 𝚊𝚋𝚘𝚞𝚝:𝚌𝚘𝚗𝚏𝚒𝚐 and restart Firefox.";
+
+    }
+
+}
+
 :not(projects-v2 figure) > :not(span.State--merged):not(.TimelineItem-badge) > :is(
     /* issue icon */
     svg.octicon-issue-closed,
