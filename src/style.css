@@ -66,7 +66,7 @@ tasklist-block-title > div.color-bg-done{
 }
 
 /* projects tasklist check */
-projects-v2 svg[data-target="tracked-issues-progress.progress"] > path{
+projects-v2 :not(span) > svg[data-target="tracked-issues-progress.progress"] > path{
     fill: var(--rissue-issue-closed) !important;
 }
 
