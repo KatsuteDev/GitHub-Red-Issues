@@ -31,17 +31,12 @@
 <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img alt="Opera" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/opera.svg"></a>
 <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img alt="Chrome Web Store" valign="middle" src="https://img.shields.io/chrome-web-store/v/kjbbjibfgnnfdeabgmbieapkhpojikpc?label=%20&style=flat-square"></a>
 
-#### Firefox
+#### Firefox*
 
 <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img alt="Mozilla Firefox" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/firefox.svg"></a>
 <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img alt="Mozilla Add-on" valign="middle" src="https://img.shields.io/amo/v/github-red-issues?label=%20&style=flat-square"></a>
 
-#### Checkout
-
- 1. Checkout or download this repository locally.
- 2. Go to [`chrome://extensions/`](chrome://extensions/) in your browser and turn on **Developer mode** in the top right.
- 3. Press **Load unpacked** and select the `src` folder. Do not remove this folder, removing it will cause the extension to be uninstalled.
- 4. Resume coding with closed issues being red.
+<small>* <code>layout.css.has-selector.enabled</code> must be enabled in <code>about:config</code></small>
 
 ## ✨ Changes
 

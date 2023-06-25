@@ -63,6 +63,8 @@ body:
           required: false
         - label: Pull hovercard
           required: false
+        - label: Tasklist
+          required: false
         - label: Discussions
           required: false
         - label: Subscriptions
