@@ -36,7 +36,7 @@
     svg.octicon-discussion-closed,
     /* tasklist icon */
     .octicon-checklist.color-fg-done
-){
+):not(.color-fg-muted){
     color: var(--rissue-issue-closed-fg) !important;
 }
 
