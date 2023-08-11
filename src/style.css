@@ -25,7 +25,7 @@
 
 }
 
-:not(projects-v2 figure) > :not(span.State--merged):not(.TimelineItem-badge):not(a[href*="/discussions"]) > :is(
+:not(react-app[app-name="repo-deployments"] div):not(projects-v2 figure) > :not(span.State--merged):not(.TimelineItem-badge):not(a[href*="/discussions"]) > :is(
     /* issue icon */
     svg.octicon-issue-closed,
     /* project icon */
