@@ -19,7 +19,7 @@
         background-color: var(--rissue-issue-closed-fg);
 
         padding: .1rem;
-        content: "⚠️ Firefox does not yet support the :𝚑𝚊𝚜 CSS selector, enable it using the 𝚕𝚊𝚢𝚘𝚞𝚝.𝚌𝚜𝚜.𝚑𝚊𝚜-𝚜𝚎𝚕𝚎𝚌𝚝𝚘𝚛.𝚎𝚗𝚊𝚋𝚕𝚎𝚍 flag in 𝚊𝚋𝚘𝚞𝚝:𝚌𝚘𝚗𝚏𝚒𝚐 and restart Firefox.";
+        content: "⚠️ This version of Firefox does not support the :𝚑𝚊𝚜 CSS selector, update to Firefox 120.";
 
     }
 
