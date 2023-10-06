@@ -36,7 +36,7 @@
 <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img alt="Mozilla Firefox" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/firefox.svg"></a>
 <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img alt="Mozilla Add-on" valign="middle" src="https://img.shields.io/amo/v/github-red-issues?label=%20&style=flat-square"></a>
 
-<small>* <code>layout.css.has-selector.enabled</code> must be enabled in <code>about:config</code></small>
+<small>* must use Firefox 120 or higher</small>
 
 ## ✨ Changes
 
