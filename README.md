@@ -17,10 +17,8 @@
     <br><br>
         <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://img.shields.io/chrome-web-store/stars/kjbbjibfgnnfdeabgmbieapkhpojikpc?style=for-the-badge&logo=google-chrome&logoColor=FFFFFF&label=Rating&labelColor=202020&color=4285F4" alt="Chrome Web Store Rating"></a>
         <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img src="https://img.shields.io/chrome-web-store/users/kjbbjibfgnnfdeabgmbieapkhpojikpc?style=for-the-badge&logo=google-chrome&logoColor=FFFFFF&label=Installs&labelColor=202020&color=4285F4" alt="Chrome Web Store Users"></a>
-        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/stars/github-red-issues?style=for-the-badge&logo=firefox-browser&logoColor=FFFFFF&label=Rating&labelColor=202020&color=FF7139
-" alt="Mozilla Firefox Rating"></a>
-        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/users/github-red-issues?style=for-the-badge&logo=firefox-browser&logoColor=FFFFFF&label=Installs&labelColor=202020&color=FF7139
-" alt="Mozilla Firefox Users"></a>
+        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/stars/github-red-issues?style=for-the-badge&logo=firefox-browser&logoColor=FFFFFF&label=Rating&labelColor=202020&color=FF7139" alt="Mozilla Firefox Rating"></a>
+        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img src="https://img.shields.io/amo/users/github-red-issues?style=for-the-badge&logo=firefox-browser&logoColor=FFFFFF&label=Installs&labelColor=202020&color=FF7139" alt="Mozilla Firefox Users"></a>
     </div>
 </div>
 
