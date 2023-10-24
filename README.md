@@ -7,8 +7,6 @@
     <div>
         <a href="https://github.com/KatsuteDev/GitHub-Red-Issues/issues">Report an Issue</a>
         •
-        <a href="https://github.com/KatsuteDev/GitHub-Red-Issues/archive/refs/heads/main.zip">Download Repository</a>
-        •
         <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc">Chrome Extension</a>
         •
         <a href="https://addons.mozilla.org/firefox/addon/github-red-issues">Mozilla Add-on</a>
@@ -22,7 +20,7 @@
     </div>
 </div>
 
-## 📃 Installation
+### Installation
 
 #### Chrome (recommended)
 
@@ -38,22 +36,21 @@
 
 <small>* <code>layout.css.has-selector.enabled</code> must be enabled in <code>about:config</code></small>
 
-## ✨ Changes
+### Changes
 
-Reverted closed issues from purple to red on:
+Reverts closed issues from purple to red on:
 
- - Pinned issues
- - Issue hover cards
- - Issue/pull timelines
- - Issues tab
- - Subscriptions list
- - Search
- - Project boards
- - Project tables
- - Discussions
- - Tasklist
+ * Issues
+ * Pulls
+ * Discussions
+ * Hover cards
+ * Tasklists
+ * Search
+ * Subscriptions
+ * Project boards
+ * Project tables
 
-## 👨‍💻 Contributing
+## &nbsp;
 
 <!-- Copilot -->
 <table>
@@ -64,7 +61,5 @@ Reverted closed issues from purple to red on:
     <p>AI generated code is <b>strictly prohibited</b> on this repository.</p>
 </table>
 <!-- Copilot -->
-
-### 💼 License
 
 This extension is released under the [CC BY-NC-SA 4.0 License](https://github.com/KatsuteDev/GitHub-Red-Issues/blob/main/LICENSE).
