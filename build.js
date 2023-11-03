@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const zip = require("zip-a-folder").zip;
+const AdmZip = require("adm-zip");
 
 const src  = path.join(__dirname, "src");
 const dist = path.join(__dirname, "dist");
@@ -34,6 +34,8 @@ const ext  = path.join(__dirname, "extension.zip");
             .trim());
 }
 
-zip(dist, ext).then(() => {
-    fs.rmSync(dist, {recursive: true});
-});
+const zip = new AdmZip();
+
+zip.addLocalFolderPromise(dist)
+   .then(() => zip.writeZip(ext))
+   .then(() => fs.rmSync(dist, {recursive: true}));
