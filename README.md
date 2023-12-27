@@ -43,7 +43,7 @@ Reverts closed issues from purple to red on:
  * Issues
  * Pulls
  * Discussions
- * Hover cards
+ * Hovercards
  * Tasklists
  * Search
  * Subscriptions
