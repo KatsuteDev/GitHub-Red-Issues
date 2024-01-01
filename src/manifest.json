@@ -12,6 +12,7 @@
         "128": "icon128.png"
     },
 
+    "minimum_chrome_version": "105",
     "browser_specific_settings": {
         "gecko": {
             "id": "{3e7882e9-4411-4136-9c76-8fddc57c8d87}"
