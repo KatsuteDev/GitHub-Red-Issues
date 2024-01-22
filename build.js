@@ -1,4 +1,4 @@
-// Copyright (C) 2023 Katsute <https://github.com/Katsute>
+// Copyright (C) 2024 Katsute <https://github.com/Katsute>
 
 const fs = require("fs");
 const path = require("path");

@@ -1,4 +1,4 @@
-/* Copyright (C) 2023 Katsute <https://github.com/Katsute> */
+/* Copyright (C) 2024 Katsute <https://github.com/Katsute> */
 
 :root {
     --rissue-issue-closed    : var(--color-danger-emphasis, #da3633);
@@ -6,7 +6,7 @@
     --rissue-issue-closed-bg : var(--color-danger-subtle, rgba(248, 81, 73, 0.1));
 }
 
-:not(react-app[app-name="repo-deployments"] div, projects-v2 figure) > :not(span.State--merged, .TimelineItem-badge, a[href*="/discussions"]) > :is(
+:not(react-app[app-name="repo-deployments"] div) > :not(span.State--merged, projects-v2 span[class^="StateLabel__StateLabelBase"], projects-v2 .TimelineItem-Badge, .TimelineItem-badge, a[href*="/discussions"], .hx_anim-fade-out) > :is(
     /* issue icon */
     svg.octicon-issue-closed,
     /* project icon */
@@ -25,10 +25,12 @@
     /* issue badge */
     span.State--merged,
     /* timeline icon */
-    .TimelineItem-badge
+    .TimelineItem-badge,
 ):has(svg.octicon-issue-closed, svg.octicon-discussion-closed),
 /* projects issue badge */
-projects-v2 span[class^="StateLabel__StateLabelBase"]:has(path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z"] + path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"]){
+projects-v2 span[class^="StateLabel__StateLabelBase"]:has(path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z"] + path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"]),
+/* projects timeline icon */
+projects-v2 .TimelineItem-Badge:has(path[d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm1.5 0a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm10.28-1.72-4.5 4.5a.75.75 0 0 1-1.06 0l-2-2a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l1.47 1.47 3.97-3.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"]){
     background-color: var(--rissue-issue-closed) !important;
 }
 
@@ -42,7 +44,7 @@ tasklist-block-title > div.color-bg-done{
     tracked-issues-progress svg,
     /* projects tasklist circle */
     svg[data-target="tracked-issues-progress.progress"]
-) > circle:last-child{
+) > circle[stroke^="var(--fgColor-done"]:last-child{
     stroke: var(--rissue-issue-closed) !important;
 }
 

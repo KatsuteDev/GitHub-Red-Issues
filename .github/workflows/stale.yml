@@ -1,12 +1,17 @@
 name: Stale
 on:
+  workflow_dispatch:
   schedule:
-    - cron: 0 11 * 1-2,11-12 1
-    - cron: 0 10 * 3-10 1
+    - cron: 0 11 * 1-2,11-12 *
+    - cron: 0 10 * 3-10 *
+  issues:
+    types: [closed]
+  pull_request:
+    types: [closed]
 
 jobs:
   stale:
     name: Stale
-    uses: Katsute/Workflows/.github/workflows/stale.yml@main
-    secrets:
-      token: ${{ secrets.BOT }}
+    uses: KatsuteDev/workflows/.github/workflows/stale.yml@main
+    if: github.repository_owner == 'KatsuteDev'
+    secrets: inherit
