@@ -52,14 +52,4 @@ Reverts closed issues from purple to red on:
 
 ## &nbsp;
 
-<!-- Copilot -->
-<table>
-    <img alt="GitHub Copilot" align="left" src="https://raw.githubusercontent.com/KatsuteDev/kdevbot/main/assets/copilot-dark.png#gh-dark-mode-only" width="50">
-    <img alt="Open AI" align="left" src="https://raw.githubusercontent.com/KatsuteDev/kdevbot/main/assets/openai-dark.png#gh-dark-mode-only" width="50">
-    <img alt="GitHub Copilot" align="left" src="https://raw.githubusercontent.com/KatsuteDev/kdevbot/main/assets/copilot-light.png#gh-light-mode-only" width="50">
-    <img alt="Open AI" align="left" src="https://raw.githubusercontent.com/KatsuteDev/kdevbot/main/assets/openai-light.png#gh-light-mode-only" width="50">
-    <p>AI generated code is <b>strictly prohibited</b> on this repository.</p>
-</table>
-<!-- Copilot -->
-
 This extension is released under the [CC BY-NC-SA 4.0 License](https://github.com/KatsuteDev/GitHub-Red-Issues/blob/main/LICENSE).
