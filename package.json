@@ -17,6 +17,7 @@
     },
     "homepage": "https://github.com/KatsuteDev/GitHub-Red-Issues#readme",
     "devDependencies": {
-        "adm-zip": "0.5.14"
+        "adm-zip": "0.5.14",
+        "puppeteer": "22.12.1"
     }
 }
