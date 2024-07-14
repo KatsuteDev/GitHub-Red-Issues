@@ -4,7 +4,8 @@
     "scripts": {
         "start": "npm run build",
         "build": "node build.js",
-        "prepare": "npm run build"
+        "prepare": "npm run build",
+        "test": "node test.js"
     },
     "repository": {
         "type": "git",
