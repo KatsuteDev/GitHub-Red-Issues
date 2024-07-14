@@ -4,11 +4,8 @@ const URL = "https://github.com/KatsuteDev/GitHub-Red-Issues";
 
 const variables = [
     `--bgColor-closed-emphasis`,
-    `--color-danger-emphasis`,
     `--fgColor-closed`,
-    `--color-danger-fg`,
     `--bgColor-closed-muted`,
-    `--color-danger-subtle`,
 ];
 
 const selectors = [
