@@ -1,9 +1,9 @@
 /* Copyright (C) 2024 Katsute <https://github.com/Katsute> */
 
 :root {
-    --rissue-issue-closed    : var(--bgColor-closed-emphasis, var(--color-danger-emphasis, #da3633));
-    --rissue-issue-closed-fg : var(--fgColor-closed, var(--color-danger-fg, #f85149));
-    --rissue-issue-closed-bg : var(--bgColor-closed-muted, var(--color-danger-subtle, #f8514926));
+    --rissue-issue-closed    : var(--bgColor-closed-emphasis, #da3633);
+    --rissue-issue-closed-fg : var(--fgColor-closed, #f85149);
+    --rissue-issue-closed-bg : var(--bgColor-closed-muted, #f8514926);
 }
 
 :not(react-app[app-name="repo-deployments"] div) > :not(span.State--merged, projects-v2 span[class^="StateLabel__StateLabelBase"], projects-v2 .TimelineItem-Badge, .TimelineItem-badge, a[href*="/discussions"], .hx_anim-fade-out) > :is(
