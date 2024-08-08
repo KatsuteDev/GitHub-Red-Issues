@@ -6,6 +6,7 @@ const variables = [
     `--bgColor-closed-emphasis`,
     `--fgColor-closed`,
     `--bgColor-closed-muted`,
+    `--boxShadow-thin`
 ];
 
 const tests = {
