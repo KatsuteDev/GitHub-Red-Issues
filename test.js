@@ -44,7 +44,9 @@ const tests = {
 };
 
 (async () => {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+        args: ["--headless=old"]
+    });
     const page = await browser.newPage();
     await page.setViewport({
         width: 3000,
