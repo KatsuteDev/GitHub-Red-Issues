@@ -6,7 +6,15 @@
     --rissue-issue-closed-bg : var(--bgColor-closed-muted, #f8514926);
 }
 
-:not(react-app[app-name="repo-deployments"] div) > :not(span.State--merged, projects-v2 span[class^="StateLabel__StateLabelBase"], projects-v2 .TimelineItem-Badge, .TimelineItem-badge, a[href*="/discussions"], .hx_anim-fade-out) > :is(
+:not(react-app[app-name="repo-deployments"] div) > :not(
+    span.State--merged,
+    span[class^="StateLabel__StateLabelBase"],
+    projects-v2 span[class^="StateLabel__StateLabelBase"],
+    .TimelineItem-Badge,
+    .TimelineItem-badge,
+    a[href*="/discussions"],
+    .hx_anim-fade-out
+) > :is(
     /* issue icon */
     svg.octicon-issue-closed,
     /* project icon */
@@ -22,15 +30,14 @@
 }
 
 :is(
-    /* issue badge */
-    span.State--merged,
-    /* timeline icon */
-    .TimelineItem-badge,
+    span.State--merged, /* issue badge (legacy) */
+    .TimelineItem-badge, /* timeline icon (legacy) */
 ):has(svg.octicon-issue-closed, svg.octicon-discussion-closed),
-/* projects issue badge */
-projects-v2 span[class^="StateLabel__StateLabelBase"]:has(path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z"] + path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"]),
-/* projects timeline icon */
-projects-v2 .TimelineItem-Badge:has(path[d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm1.5 0a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm10.28-1.72-4.5 4.5a.75.75 0 0 1-1.06 0l-2-2a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l1.47 1.47 3.97-3.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"]){
+:is(
+    span[class^="StateLabel__StateLabelBase"], /* new issue badge & projects v2 */
+):has(path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z"] + path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"]),
+/* timeline icon */
+.TimelineItem-Badge:has(path[d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm1.5 0a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm10.28-1.72-4.5 4.5a.75.75 0 0 1-1.06 0l-2-2a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l1.47 1.47 3.97-3.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"]){
     border-color: var(--rissue-issue-closed) !important;
     box-shadow: var(--boxShadow-thin, inset 0 0 0 max(1px, 0.0625rem)) var(--rissue-issue-closed) !important;
     background-color: var(--rissue-issue-closed) !important;
@@ -44,20 +51,38 @@ tasklist-block-title > div.color-bg-done{
 :is(
     /* tasklist circle */
     tracked-issues-progress svg,
-    /* projects tasklist circle */
-    svg[data-target="tracked-issues-progress.progress"]
-) > circle[stroke^="var(--fgColor-done"]:last-child{
+) > circle[stroke^="var(--fgColor-done"]:last-child,
+/* sub issue circle */
+svg[class^="ProgressCircle-module__completedIcon"] > circle {
     stroke: var(--rissue-issue-closed) !important;
-}
-
-/* projects tasklist check */
-projects-v2 :not(span) > svg[data-target="tracked-issues-progress.progress"] > path{
-    fill: var(--rissue-issue-closed) !important;
 }
 
 /* tasklist fill */
 span > svg[data-target="tracked-issues-progress.progress"] > path{
     fill: var(--rissue-issue-closed-bg) !important;
+}
+
+/* progress circle */
+:is(
+    #issue-viewer-side-panel,
+    react-app[app-name="issues-react"]
+) :is(
+    circle[class^="ProgressCircle-module__circleProgressShade"],
+    circle[class^="ProgressCircle-module__circleProgress"]
+),
+projects-v2 svg[data-target="tracked-issues-progress.progress"] circle[stroke-dashoffset]{
+    stroke: var(--rissue-issue-closed) !important;
+}
+
+/* progress check */
+:is(
+    projects-v2,
+    #issue-viewer-side-panel,
+    react-app[app-name="issues-react"]
+) :is(
+    svg[class^="ProgressCircle-module__completedIcon"]
+) > path {
+    fill: var(--rissue-issue-closed) !important;
 }
 
 /* print */
