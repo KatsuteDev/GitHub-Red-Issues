@@ -6,7 +6,11 @@
     --rissue-issue-closed-bg : var(--bgColor-closed-muted, #f8514926);
 }
 
-:not(react-app[app-name="repo-deployments"] div) > :not(
+:not(
+    react-app[app-name="repo-deployments"] div,
+    button[data-testid="mark-as-action-menu-button"] *,
+    ul[data-testid="mark-as-action-menu-list"] *
+) > :not(
     span.State--merged,
     span[class^="StateLabel__StateLabelBase"],
     projects-v2 span[class^="StateLabel__StateLabelBase"],
