@@ -4,8 +4,7 @@
     "scripts": {
         "start": "npm run build",
         "build": "node build.js",
-        "prepare": "npm run build",
-        "test": "node test.js"
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
@@ -18,7 +17,6 @@
     },
     "homepage": "https://github.com/KatsuteDev/GitHub-Red-Issues#readme",
     "devDependencies": {
-        "adm-zip": "0.5.16",
-        "puppeteer": "23.10.4"
+        "adm-zip": "0.5.16"
     }
 }
