@@ -26,9 +26,7 @@
     /* search issue icon */
     svg:has(path[d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm1.5 0a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm10.28-1.72-4.5 4.5a.75.75 0 0 1-1.06 0l-2-2a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l1.47 1.47 3.97-3.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"]),
     /* discussion icon */
-    svg.octicon-discussion-closed,
-    /* tasklist icon */
-    .octicon-checklist.color-fg-done
+    svg.octicon-discussion-closed
 ):not(.color-fg-muted){
     color: var(--rissue-issue-closed-fg) !important;
 }
@@ -49,25 +47,6 @@ svg:has(path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 
     border-color: var(--rissue-issue-closed) !important;
     box-shadow: var(--boxShadow-thin, inset 0 0 0 max(1px, 0.0625rem)) var(--rissue-issue-closed) !important;
     background-color: var(--rissue-issue-closed) !important;
-}
-
-/* tasklist icon */
-tasklist-block-title > div.color-bg-done{
-    background-color: var(--rissue-issue-closed-bg) !important;
-}
-
-:is(
-    /* tasklist circle */
-    tracked-issues-progress svg,
-) > circle[stroke^="var(--fgColor-done"]:last-child,
-/* sub issue circle */
-svg[class^="ProgressCircle-module__completedIcon"] > circle{
-    stroke: var(--rissue-issue-closed) !important;
-}
-
-/* tasklist fill */
-span > svg[data-target="tracked-issues-progress.progress"] > path{
-    fill: var(--rissue-issue-closed-bg) !important;
 }
 
 /* progress circle */
