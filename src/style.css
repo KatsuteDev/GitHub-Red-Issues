@@ -92,19 +92,3 @@ projects-v2 svg[data-target="tracked-issues-progress.progress"] circle[stroke-da
 ) > path{
     fill: var(--rissue-issue-closed) !important;
 }
-
-/* print */
-@media print {
-    :is(
-        /* issue badge */
-        span.State--merged,
-        /* timeline icon */
-        .TimelineItem-badge
-    ):has(svg.octicon-issue-closed, svg.octicon-discussion-closed),
-    /* projects issue badge */
-    projects-v2 span[class^="StateLabel__StateLabelBase"]:has(path[d="M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z"] + path[d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"]){
-        background: none !important;
-        color: var(--rissue-issue-closed-fg) !important;
-        border-color: var(--rissue-issue-closed) !important;
-    }
-}
