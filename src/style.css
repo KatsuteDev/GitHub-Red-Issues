@@ -8,6 +8,7 @@
 
 :not(
     react-app[app-name="repo-deployments"] div,
+    react-app[app-name="blackbird-search"] li,
     button[data-testid="mark-as-action-menu-button"] *,
     ul[data-testid="mark-as-action-menu-list"] *
 ) > :not(
@@ -18,7 +19,8 @@
     .TimelineItem-badge,
     div:is([class^="prc-Timeline-TimelineBadge-"],[class*=" prc-Timeline-TimelineBadge-"]),
     a[href*="/discussions"],
-    .hx_anim-fade-out
+    .hx_anim-fade-out,
+    a[href$="state=closed"] > span
 ) > :is(
     /* issue icon */
     svg.octicon-issue-closed,
