@@ -20,7 +20,8 @@
     div:is([class^="prc-Timeline-TimelineBadge-"],[class*=" prc-Timeline-TimelineBadge-"]),
     a[href*="/discussions"],
     .hx_anim-fade-out,
-    a[href$="state=closed"] > span
+    a[href$="state=closed"] > span,
+    h2:has(> a[href$="/deployments"]) + ul > li
 ) > :is(
     /* issue icon */
     svg.octicon-issue-closed,
