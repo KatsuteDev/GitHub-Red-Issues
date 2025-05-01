@@ -21,7 +21,8 @@
     a[href*="/discussions"],
     .hx_anim-fade-out,
     a[href$="state=closed"] > span,
-    h2:has(> a[href$="/deployments"]) + ul > li
+    h2:has(> a[href$="/deployments"]) + ul > li,
+    button[data-testid="checks-status-badge-icon"]
 ) > :is(
     /* issue icon */
     svg.octicon-issue-closed,
