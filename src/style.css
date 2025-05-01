@@ -61,6 +61,11 @@ div:is([class^="prc-Timeline-TimelineBadge-"],[class*=" prc-Timeline-TimelineBad
     background-color: var(--rissue-issue-closed) !important;
 }
 
+/* sub issue circle */
+svg[class^="ProgressCircle-module__completedIcon"] > circle{
+    stroke: var(--rissue-issue-closed) !important;
+}
+
 /* progress circle */
 :is(
     #issue-viewer-side-panel,
