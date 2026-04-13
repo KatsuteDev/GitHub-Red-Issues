@@ -16,6 +16,7 @@
     span[class^="StateLabel__StateLabelBase"],
     span[class^="prc-StateLabel-StateLabel"],
     div:is([class^="prc-Timeline-TimelineBadge-"],[class*=" prc-Timeline-TimelineBadge-"]),
+    div:is([class^="prc-Timeline-TimelineBadge-"],[class*=" prc-Timeline-TimelineBadge-"]) > span,
     a[href*="/discussions"],
     .hx_anim-fade-out,
     a[href$="state=closed"] > span,
