@@ -7,9 +7,9 @@
     <div>
         <a href="https://github.com/KatsuteDev/GitHub-Red-Issues/issues">Report an Issue</a>
         •
-        <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc">Chrome Extension</a>
+        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues">Firefox Add-on</a>
         •
-        <a href="https://addons.mozilla.org/firefox/addon/github-red-issues">Mozilla Add-on</a>
+        <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc">Chrome Extension</a>
     <br><br>
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License"></a>
     </div>
