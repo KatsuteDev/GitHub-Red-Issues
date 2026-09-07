@@ -21,7 +21,6 @@
 
 <a href="https://addons.mozilla.org/firefox/addon/github-red-issues"><img alt="Mozilla Firefox" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/firefox.svg"></a>
 
-
 #### Chromium
 
 <a href="https://chrome.google.com/webstore/detail/github-red-issues/kjbbjibfgnnfdeabgmbieapkhpojikpc"><img alt="Google Chrome" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Red-Issues/main/assets/chrome.svg"></a>
