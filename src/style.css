@@ -48,7 +48,7 @@ projects-v2 div:has(> span ~ h1) span[data-variant="done"] {
 /* milestone badge */
 span[class*="RepositoryMilestone-module__milestoneStatus"][data-status="closed"],
 /* hovercards */
-.State--merged:has(svg.octicon-issue-closed)
+.State--merged:has(svg.octicon-issue-closed, svg.octicon-discussion-closed)
 {
     box-shadow: var(--boxShadow-thin, inset 0 0 0 max(1px, 0.0625rem)) var(--rissue-issue-closed) !important;
 }
@@ -63,7 +63,7 @@ div:is([class^="prc-Timeline-TimelineBadge-"],[class*=" prc-Timeline-TimelineBad
 /* milestone badge */
 span[class*="RepositoryMilestone-module__milestoneStatus"][data-status="closed"],
 /* hovercards */
-.State--merged:has(svg.octicon-issue-closed)
+.State--merged:has(svg.octicon-issue-closed, svg.octicon-discussion-closed)
 {
     border-color: var(--rissue-issue-closed) !important;
     background-color: var(--rissue-issue-closed) !important;
