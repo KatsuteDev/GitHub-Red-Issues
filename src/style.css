@@ -10,7 +10,8 @@
     react-app[app-name="repo-deployments"] div,
     react-app[app-name="blackbird-search"] li,
     button[data-testid="mark-as-action-menu-button"] *,
-    ul[data-testid="mark-as-action-menu-list"] *
+    ul[data-testid="mark-as-action-menu-list"] *,
+    div[class^="prc-PageHeader-Actions"][data-component="PH_Actions"] *
 ) > :not(
     .State--merged,
     span[class^="StateLabel__StateLabelBase"],
