@@ -11,7 +11,8 @@
     react-app[app-name="blackbird-search"] li,
     ul[data-testid="mark-as-action-menu-list"] *,
     div[class^="prc-PageHeader-Actions"][data-component="PH_Actions"] *,
-    button[data-dd-action-name="pull_request.merge_box.status_button"] *
+    button[data-dd-action-name="pull_request.merge_box.status_button"] *,
+    section[data-overview-sidebar-item="true"] *
 ) > :not(
     .State--merged,
     span[class^="StateLabel__StateLabelBase"],
