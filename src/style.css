@@ -9,9 +9,10 @@
 :not(
     react-app[app-name="repo-deployments"] div,
     react-app[app-name="blackbird-search"] li,
-    button[data-testid="mark-as-action-menu-button"] *,
     ul[data-testid="mark-as-action-menu-list"] *,
-    div[class^="prc-PageHeader-Actions"][data-component="PH_Actions"] *
+    div[class^="prc-PageHeader-Actions"][data-component="PH_Actions"] *,
+    button[data-dd-action-name="pull_request.merge_box.status_button"] *,
+    section[data-overview-sidebar-item="true"] *
 ) > :not(
     .State--merged,
     span[class^="StateLabel__StateLabelBase"],
