@@ -35,6 +35,7 @@
     svg.octicon-discussion-closed
 ):not(.color-fg-muted){
     color: var(--rissue-issue-closed-fg) !important;
+    fill: var(--rissue-issue-closed-fg) !important;
 }
 
 /* closed projects */
